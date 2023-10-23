@@ -10,7 +10,6 @@ body{
 .switch-contenedor{
     width: 20%;
     height: 100vh;
-
     /*Propiedad flex 
     Alineando los elemtos dentro del contenedor en X y Y */
     display: flex;
@@ -25,6 +24,11 @@ body{
     height: 120px;
     width: 80px;
     box-shadow: 0 0 5px darkgrey;
+    /* Propiedad flex
+    flexi-direction realiza el dibujado de los div internos en columnas.
+    space-evenly intenta dejar el mismo espacio entre los elementos internos.
+    align-items alinea los elementos al centro en el ejec x.*/
+
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -126,5 +130,5 @@ body{
 
 .focoOn{
     background-color: lightyellow;
-    box-shadow: 0 10px 10px 10px lightyellow;
+    box-shadow: 0 10px 100px 10px lightyellow;
 }

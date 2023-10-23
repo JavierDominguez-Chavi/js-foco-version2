@@ -1,4 +1,7 @@
+//Se ejecuta al cargar la pagina completa
 window.addEventListener('load', function(){
+    //Llamada a la funcion foco()
+    //La declaracion  puede estar abajo de la llamada
     foco();
 });
 
